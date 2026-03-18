@@ -1,0 +1,146 @@
+export const productCerts = [
+  {
+    id: 1,
+    title: "FSSAI License",
+    fullName: "Food Safety and Standards Authority of India",
+    icon: "🛡️",
+    color: "teal",
+    description:
+      "Certifies that all De'hydra products meet India's national food safety standards for manufacturing, processing and packaging.",
+    tags: ["Food Safety", "Manufacturing", "India"],
+    number: "FSSAI: 10024XXXXXX",
+    validUntil: "December 2026",
+    status: "Active",
+  },
+  {
+    id: 2,
+    title: "ISO 9001:2015",
+    fullName: "International Organization for Standardization",
+    icon: "🏅",
+    color: "teal",
+    description:
+      "Internationally recognized quality management system certification ensuring consistent product quality and process excellence.",
+    tags: ["Quality Management", "International", "QMS"],
+    number: "ISO: QMS/XXXXXX",
+    validUntil: "March 2026",
+    status: "Active",
+  },
+  {
+    id: 3,
+    title: "HACCP Certified",
+    fullName: "Hazard Analysis and Critical Control Points",
+    icon: "🔬",
+    color: "teal",
+    description:
+      "Systematic preventive approach certification ensuring all biological, chemical and physical hazards are controlled during food processing.",
+    tags: ["Food Safety", "Hazard Control", "Processing"],
+    number: "HACCP: XXXXXX",
+    validUntil: "June 2026",
+    status: "Active",
+  },
+  {
+    id: 4,
+    title: "GMP Certified",
+    fullName: "Good Manufacturing Practices",
+    icon: "🏭",
+    color: "teal",
+    description:
+      "Ensures our manufacturing facility meets all hygiene, cleanliness and operational standards required for safe food production.",
+    tags: ["Manufacturing", "Hygiene", "Facility"],
+    number: "GMP: XXXXXX",
+    validUntil: "September 2026",
+    status: "Active",
+  },
+  {
+    id: 5,
+    title: "Organic Certification",
+    fullName: "National Programme for Organic Production (NPOP)",
+    icon: "🌿",
+    color: "green",
+    description:
+      "Certifies that select De'hydra products are grown without synthetic pesticides, fertilizers or GMOs — 100% organically produced.",
+    tags: ["Organic", "Natural", "Non-GMO", "NPOP"],
+    number: "ORGANIC: XXXXXX",
+    validUntil: "January 2027",
+    status: "Active",
+  },
+  {
+    id: 6,
+    title: "Spices Board India",
+    fullName: "Ministry of Commerce & Industry — Spices Board",
+    icon: "🌶️",
+    color: "orange",
+    description:
+      "Official registration with Spices Board of India authorizing export of certified spices and spice products meeting international quality norms.",
+    tags: ["Spices", "Export", "Government"],
+    number: "SB: SPXXXXX/2024",
+    validUntil: "March 2027",
+    status: "Active",
+  },
+]
+
+export const exportCerts = [
+  {
+    id: 1,
+    title: "APEDA Registration",
+    fullName: "Agricultural & Processed Food Products Export Development Authority",
+    icon: "✈️",
+    color: "teal",
+    description:
+      "Mandatory registration under APEDA authorizes De'hydra to export scheduled products including processed fruits, vegetables and cereal products to international markets.",
+    benefits: ["Legal Export Authorization", "Access to 30+ Countries", "Government Backed Credibility", "Eligible for Export Subsidies"],
+    number: "APEDA/REG/XXXXXX",
+    validUntil: "2026",
+    status: "Active",
+  },
+  {
+    id: 2,
+    title: "IEC — Import Export Code",
+    fullName: "Directorate General of Foreign Trade — Ministry of Commerce",
+    icon: "🌐",
+    color: "teal-dark",
+    description:
+      "Government issued Import Export Code is mandatory for all international trade operations. De'hydra holds a permanent IEC authorizing global export of all food products.",
+    benefits: ["Permanent Government Authorization", "International Trade Compliance", "Banking & Payment Facilitation", "Customs Clearance Ready"],
+    number: "IEC: XXXXXXXXXX",
+    validUntil: "Permanent / Lifetime",
+    status: "Permanent",
+  },
+  {
+    id: 3,
+    title: "Phytosanitary Certificate",
+    fullName: "Plant Quarantine Information System — Government of India",
+    icon: "🌱",
+    color: "green",
+    description:
+      "Issued per shipment by authorized plant quarantine officers, certifying that exported plant-based food products are free from pests and diseases.",
+    benefits: ["Pest & Disease Free Certification", "Required by Most Importing Countries", "Issued per Shipment", "Meets International Plant Standards"],
+    number: "Issuing Authority: NPPO India",
+    validUntil: "Per Shipment",
+    status: "Per Shipment",
+  },
+  {
+    id: 4,
+    title: "Certificate of Origin",
+    fullName: "FIEO / DGFT / Chamber of Commerce",
+    icon: "📋",
+    color: "orange",
+    description:
+      "Official document certifying that De'hydra products are manufactured and processed in India — required for customs clearance, duty benefits and trade agreements.",
+    benefits: ["Customs & Duty Compliance", "Trade Agreement Benefits", "Country of Origin Verified", "Per Shipment Issuance"],
+    number: "Issuing Body: FIEO / Chamber of Commerce",
+    validUntil: "Per Shipment",
+    status: "Per Shipment",
+  },
+]
+
+export const downloadCerts = [
+  { name: "FSSAI License",           issuer: "FSSAI",                 validUntil: "Dec 2026",   status: "Active" },
+  { name: "ISO 9001:2015",           issuer: "ISO",                   validUntil: "Mar 2026",   status: "Active" },
+  { name: "HACCP Certificate",       issuer: "HACCP Body",            validUntil: "Jun 2026",   status: "Active" },
+  { name: "GMP Certificate",         issuer: "GMP Council",           validUntil: "Sep 2026",   status: "Active" },
+  { name: "Organic Certificate",     issuer: "NPOP India",            validUntil: "Jan 2027",   status: "Active" },
+  { name: "APEDA Registration",      issuer: "APEDA",                 validUntil: "2026",       status: "Active" },
+  { name: "IEC Code",                issuer: "DGFT",                  validUntil: "Permanent",  status: "Permanent" },
+  { name: "Spices Board Certificate",issuer: "Spices Board India",    validUntil: "Mar 2027",   status: "Active" },
+]
