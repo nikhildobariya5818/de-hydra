@@ -1,0 +1,164 @@
+{
+  "productCerts": [
+    {
+      "id": 1,
+      "icon": "✅",
+      "title": "FSSAI License",
+      "fullName": "Food Safety Standards Authority of India License",
+      "status": "Active",
+      "number": "FLI/2020/123456",
+      "validUntil": "Dec 31, 2025",
+      "description": "Certified food production facility meeting Indian food safety standards. License covers processing, packaging, and export of dehydrated foods.",
+      "tags": ["Food Safety", "Processing", "Export"]
+    },
+    {
+      "id": 2,
+      "icon": "🏭",
+      "title": "ISO 9001:2015",
+      "fullName": "Quality Management System Certification",
+      "status": "Active",
+      "number": "ISO/2021/789012",
+      "validUntil": "Nov 15, 2025",
+      "description": "International quality management system certification. Ensures consistent product quality, documentation, and continuous improvement practices.",
+      "tags": ["Quality", "Management", "International"]
+    },
+    {
+      "id": 3,
+      "icon": "🛡️",
+      "title": "HACCP Certified",
+      "fullName": "Hazard Analysis and Critical Control Points",
+      "status": "Active",
+      "number": "HACCP/2020/345678",
+      "validUntil": "Aug 20, 2025",
+      "description": "Systematic approach to food safety identifying critical control points in production. Ensures hazards are identified and controlled at every stage.",
+      "tags": ["Safety", "Hazard Control", "Production"]
+    },
+    {
+      "id": 4,
+      "icon": "⚙️",
+      "title": "GMP Certified",
+      "fullName": "Good Manufacturing Practice",
+      "status": "Active",
+      "number": "GMP/2021/456789",
+      "validUntil": "Sep 30, 2025",
+      "description": "Good Manufacturing Practice certification ensuring our facility meets international standards for equipment, personnel, and processes.",
+      "tags": ["Manufacturing", "Standards", "Compliance"]
+    },
+    {
+      "id": 5,
+      "icon": "🌿",
+      "title": "Organic Certification",
+      "fullName": "Organic Certification for Dehydrated Products",
+      "status": "Active",
+      "number": "ORG/2019/567890",
+      "validUntil": "Dec 15, 2024",
+      "description": "Certification for organic dehydrated vegetables and spices. Certifies products are produced without synthetic pesticides or GMOs.",
+      "tags": ["Organic", "Natural", "Premium"]
+    },
+    {
+      "id": 6,
+      "icon": "🌾",
+      "title": "Spices Board India",
+      "fullName": "Spices Board Approval for Export",
+      "status": "Active",
+      "number": "APEDA/2020/678901",
+      "validUntil": "Permanent",
+      "description": "Official approval from India's Spices Board for export of spices and spice products. Required for international trade in spice category.",
+      "tags": ["Spices", "Export", "APEDA"]
+    }
+  ],
+  "exportCerts": [
+    {
+      "id": 1,
+      "icon": "📄",
+      "title": "Certificate of Origin",
+      "fullName": "COO - Certificate of Origin",
+      "status": "Per Shipment",
+      "description": "Official documentation proving the country of origin of products. Required by customs in most importing countries for tariff classification.",
+      "benefits": ["Tariff Benefit", "Country Proof", "Customs Clearance", "Trade Preference"]
+    },
+    {
+      "id": 2,
+      "icon": "🪴",
+      "title": "Phytosanitary Certificate",
+      "fullName": "Plant Health Certificate",
+      "status": "Per Shipment",
+      "description": "Certificate confirming plant material is free from specified pests and diseases. Mandatory for agricultural products moving internationally.",
+      "benefits": ["Plant Health", "Pest Free", "Disease Free", "Plant Quarantine"]
+    },
+    {
+      "id": 3,
+      "icon": "🏥",
+      "title": "Health Certificate",
+      "fullName": "Food Health Certificate",
+      "status": "Per Shipment",
+      "description": "Health authority certification that food products are safe for human consumption and free from contamination.",
+      "benefits": ["Food Safety", "Consumption Safe", "Quality Assured", "Hygiene Verified"]
+    },
+    {
+      "id": 4,
+      "icon": "✈️",
+      "title": "Free Trade Agreement",
+      "fullName": "FTA Eligibility Certificate",
+      "status": "Permanent",
+      "description": "Certification enabling eligibility under bilateral/multilateral free trade agreements for preferential tariff rates.",
+      "benefits": ["Lower Tariffs", "Trade Preference", "Reduced Costs", "Faster Customs"]
+    },
+    {
+      "id": 5,
+      "icon": "📋",
+      "title": "Test Reports",
+      "fullName": "Laboratory Test & Analysis Reports",
+      "status": "Per Shipment",
+      "description": "Comprehensive laboratory testing confirming product specifications, nutritional values, and absence of contaminants.",
+      "benefits": ["Quality Proof", "Specifications", "Nutrients Data", "Contaminant Free"]
+    },
+    {
+      "id": 6,
+      "icon": "🌍",
+      "title": "Export License",
+      "fullName": "APEDA Export License",
+      "status": "Permanent",
+      "description": "Official export license from Agricultural and Processed Food Products Export Development Authority enabling international food trade.",
+      "benefits": ["Legal Export", "Government Approval", "Trade Authority", "International Shipping"]
+    }
+  ],
+  "downloadCerts": [
+    {
+      "name": "FSSAI License",
+      "issuer": "Food Safety Standards Authority of India",
+      "validUntil": "Dec 31, 2025",
+      "status": "Active"
+    },
+    {
+      "name": "ISO 9001:2015 Certificate",
+      "issuer": "International Organization for Standardization",
+      "validUntil": "Nov 15, 2025",
+      "status": "Active"
+    },
+    {
+      "name": "HACCP Certification",
+      "issuer": "Food Safety Certification Body",
+      "validUntil": "Aug 20, 2025",
+      "status": "Active"
+    },
+    {
+      "name": "GMP Certificate",
+      "issuer": "Good Manufacturing Practice Authority",
+      "validUntil": "Sep 30, 2025",
+      "status": "Active"
+    },
+    {
+      "name": "Organic Certification",
+      "issuer": "Organic Certification Bureau",
+      "validUntil": "Dec 15, 2024",
+      "status": "Active"
+    },
+    {
+      "name": "APEDA Registration",
+      "issuer": "Agricultural & Processed Food Products Export Development Authority",
+      "validUntil": "Permanent",
+      "status": "Permanent"
+    }
+  ]
+}

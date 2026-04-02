@@ -1,0 +1,111 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "slug": "navigating-global-food-export-regulations-2024",
+      "tag": "EXPORT",
+      "date": "Oct 20, 2023",
+      "readTime": "6 min",
+      "title": "Navigating Global Food Export Regulations in 2024",
+      "excerpt": "A comprehensive guide to compliance, phytosanitary certificates, and international food safety standards.",
+      "img": "/images/blog/blog-1.jpg",
+      "author": "Sarah Jenkins",
+      "authorRole": "Senior Researcher",
+      "content": "<h2>Introduction</h2><p>Global food export regulations are becoming increasingly complex. In 2024, businesses must navigate a maze of certifications, phytosanitary requirements, and regional compliance standards. This comprehensive guide will help you understand the key requirements for exporting dehydrated foods worldwide.</p><h2>Key Regulations by Region</h2><h3>European Union</h3><p>The EU has some of the strictest food safety standards globally. Key requirements include:</p><ul><li>FSSC 22000 certification</li><li>Pesticide residue limits within EU standards</li><li>Allergen declaration and labeling</li><li>Traceability from farm to consumer</li></ul><h3>United States</h3><p>The FDA regulates all food imports into the US. Requirements include:</p><ul><li>FDA Food Facility Registration</li><li>FSMA Compliance</li><li>Preventive Controls for Human Food</li><li>Foreign Supplier Verification Program (FSVP)</li></ul><h3>Middle East & GCC Countries</h3><p>Gulf states have specific requirements including halal certification and local import approvals.</p><h2>Essential Certifications</h2><p>Several certifications are becoming mandatory for international trade:</p><ul><li><strong>FSSC 22000:</strong> Combined ISO 22000 and PAS 220 certification</li><li><strong>ISO 9001:2015:</strong> Quality management systems</li><li><strong>HACCP:</strong> Hazard analysis and critical control points</li><li><strong>Organic Certification:</strong> For organic dehydrated foods</li></ul><h2>Documentation Requirements</h2><p>Every shipment requires proper documentation:</p><ul><li>Certificate of Origin (CoO)</li><li>Phytosanitary Certificate</li><li>Health Certificate</li><li>Commercial Invoice</li><li>Packing List</li><li>Bill of Lading</li></ul><h2>Conclusion</h2><p>Proper compliance ensures smooth international trade. De'hydra Food Venture maintains all necessary certifications and can provide complete documentation packages for any destination.</p>",
+      "relatedArticles": [2, 5],
+      "keywords": ["export", "regulations", "compliance", "certifications"]
+    },
+    {
+      "id": 2,
+      "slug": "science-of-nutrient-retention-solar-drying",
+      "tag": "HEALTH",
+      "date": "Oct 18, 2023",
+      "readTime": "5 min",
+      "title": "The Science of Nutrient Retention in Solar Drying",
+      "excerpt": "How our specialized drying process maintains 95% of vitamins and minerals compared to traditional high-heat methods.",
+      "img": "/images/blog/blog-2.jpg",
+      "author": "Dr. James Mitchell",
+      "authorRole": "Food Scientist",
+      "content": "<h2>Understanding Nutrient Loss</h2><p>During traditional dehydration, significant nutrient loss occurs due to high temperatures. Our solar drying technology is designed to preserve essential vitamins and minerals.</p><h2>The Science Behind Solar Drying</h2><p>Solar drying uses controlled ambient temperature and humidity to remove moisture without degrading nutrients. This method is particularly effective for:</p><ul><li>Water-soluble vitamins (B complex, Vitamin C)</li><li>Fat-soluble vitamins (A, D, E, K)</li><li>Essential minerals (Iron, Zinc, Magnesium)</li><li>Phytochemicals and antioxidants</li></ul><h2>Comparison: Traditional vs. Solar</h2><table><tr><th>Nutrient</th><th>Traditional High-Heat</th><th>Solar Drying</th></tr><tr><td>Vitamin C</td><td>30-50% retained</td><td>85-95% retained</td></tr><tr><td>B Vitamins</td><td>40-60% retained</td><td>80-90% retained</td></tr><tr><td>Antioxidants</td><td>35-55% retained</td><td>90-95% retained</td></tr></table><h2>Quality Assurance</h2><p>Every batch undergoes rigorous nutrient analysis to ensure maximum retention of beneficial compounds.</p>",
+      "relatedArticles": [1, 3],
+      "keywords": ["nutrients", "health", "drying", "science"]
+    },
+    {
+      "id": 3,
+      "slug": "iot-cold-chain-dry-logistics",
+      "tag": "TECHNOLOGY",
+      "date": "Oct 15, 2023",
+      "readTime": "7 min",
+      "title": "IoT in Cold Chain & Dry Logistics",
+      "excerpt": "Real-time tracking of humidity and temperature levels during long-haul transit to ensure premium product quality.",
+      "img": "/images/blog/blog-3.jpg",
+      "author": "Alex Chen",
+      "authorRole": "Logistics Expert",
+      "content": "<h2>The Role of IoT in Modern Logistics</h2><p>Internet of Things (IoT) technology has revolutionized supply chain management. Real-time monitoring ensures products maintain optimal conditions throughout transit.</p><h2>Key IoT Technologies We Use</h2><p><strong>Temperature & Humidity Sensors</strong> monitor conditions throughout the supply chain. These sensors:</p><ul><li>Provide real-time data via cloud platforms</li><li>Alert teams immediately if conditions deviate</li><li>Record comprehensive data for quality audits</li><li>Enable predictive maintenance</li></ul><h2>Benefits for Dehydrated Foods</h2><p>For dehydrated products, maintaining optimal storage conditions is critical:</p><ul><li>Humidity control (maintain under 15% for most products)</li><li>Temperature stability (15-25°C ideal)</li><li>Light protection</li><li>Contamination prevention</li></ul><h2>End-to-End Tracking</h2><p>From warehouse to customer, every shipment is tracked with precision. This ensures:</p><ul><li>Product integrity verification</li><li>Reduced claims and disputes</li><li>Enhanced customer confidence</li><li>Compliance documentation</li></ul><h2>Future of Supply Chain</h2><p>Emerging technologies like blockchain and AI will further enhance visibility and efficiency in the coming years.</p>",
+      "relatedArticles": [4, 5],
+      "keywords": ["IoT", "logistics", "technology", "supply chain"]
+    },
+    {
+      "id": 4,
+      "slug": "reducing-post-harvest-loss-smallholder-farmers",
+      "tag": "IMPACT",
+      "date": "Oct 12, 2023",
+      "readTime": "4 min",
+      "title": "Reducing Post-Harvest Loss for Smallholder Farmers",
+      "excerpt": "How dehydration technology is providing economic stability to rural farming communities across emerging markets.",
+      "img": "/images/blog/blog-4.jpg",
+      "author": "Maria Santos",
+      "authorRole": "Community Development Officer",
+      "content": "<h2>The Post-Harvest Loss Problem</h2><p>Approximately 30% of agricultural produce in developing countries is lost after harvest due to spoilage. This represents both economic loss and food waste.</p><h2>How Dehydration Helps</h2><p>Dehydration technology enables smallholder farmers to:</p><ul><li>Preserve surplus harvest year-round</li><li>Access premium export markets</li><li>Reduce dependency on middlemen</li><li>Increase household income by 40-60%</li><li>Build food security</li></ul><h2>De'hydra's Community Programs</h2><p>We partner with farming cooperatives to provide:</p><ul><li>Training on small-scale dehydration techniques</li><li>Access to efficient solar dryers</li><li>Market linkages to international buyers</li><li>Fair trade prices and transparent contracts</li></ul><h2>Impact Stories</h2><p>In partnership with 500+ farming families across India, we've helped transform agricultural practices and improve livelihoods.</p><h2>Looking Forward</h2><p>Our mission is to make advanced food preservation technology accessible to farmers everywhere, creating sustainable value chains.</p>",
+      "relatedArticles": [2, 6],
+      "keywords": ["impact", "farmers", "sustainability", "community"]
+    },
+    {
+      "id": 5,
+      "slug": "india-dehydrated-food-export-trends-2025",
+      "tag": "EXPORT",
+      "date": "Oct 8, 2023",
+      "readTime": "5 min",
+      "title": "India's Dehydrated Food Export Trends 2025",
+      "excerpt": "Market analysis of India's growing role as a global supplier of premium dehydrated vegetables and spice powders.",
+      "img": "/images/blog/blog-5.jpg",
+      "author": "Rajesh Kumar",
+      "authorRole": "Market Analyst",
+      "content": "<h2>India's Global Market Position</h2><p>India is the world's largest producer and exporter of spices, and the dehydrated food sector is experiencing explosive growth. In 2024, India exported over $2.5 billion worth of dehydrated and processed foods.</p><h2>Key Export Trends</h2><p><strong>Growing International Demand:</strong> Health-conscious consumers worldwide are seeking natural, minimally processed foods.</p><p><strong>Technology Adoption:</strong> Indian manufacturers are investing in modern processing facilities and automation.</p><p><strong>Quality Elevation:</strong> Premium certifications and organic products are commanding higher prices.</p><h2>Top Export Destinations</h2><ul><li>Middle East & GCC (40% of exports)</li><li>European Union (25%)</li><li>North America (20%)</li><li>Southeast Asia (15%)</li></ul><h2>Challenges & Opportunities</h2><p><strong>Challenges:</strong></p><ul><li>Increasing regulatory requirements</li><li>Competition from other countries</li><li>Climate variability affecting raw material availability</li></ul><p><strong>Opportunities:</strong></p><ul><li>Rising health & wellness trend</li><li>E-commerce and direct-to-consumer channels</li><li>Private labeling for international brands</li><li>Emerging markets in Africa and South America</li></ul><h2>Conclusion</h2><p>De'hydra Food Venture is well-positioned to capitalize on these trends with our quality, certifications, and customer-centric approach.</p>",
+      "relatedArticles": [1, 3],
+      "keywords": ["export", "market trends", "India", "growth"]
+    },
+    {
+      "id": 6,
+      "slug": "choosing-right-bulk-dehydrated-supplier",
+      "tag": "HEALTH",
+      "date": "Sep 28, 2023",
+      "readTime": "6 min",
+      "title": "Choosing the Right Bulk Dehydrated Ingredient Supplier",
+      "excerpt": "Key criteria for evaluating B2B dehydrated food suppliers — certifications, consistency, capacity and communication.",
+      "img": "/images/blog/blog-6.jpg",
+      "author": "Jennifer White",
+      "authorRole": "Procurement Specialist",
+      "content": "<h2>Why Supplier Selection Matters</h2><p>Your dehydrated ingredient supplier can make or break your product quality and production timeline. Here are the key criteria to evaluate.</p><h2>Essential Criteria</h2><h3>1. Certifications & Compliance</h3><p>Look for suppliers with:</p><ul><li>FSSC 22000 or equivalent</li><li>ISO 9001:2015</li><li>Export approval from key markets</li><li>Regular third-party audits</li></ul><h3>2. Quality Consistency</h3><p>Request:</p><ul><li>Sample testing data</li><li>Batch testing reports</li><li>Stability data for shelf life</li><li>Moisture content specifications</li></ul><h3>3. Production Capacity</h3><p>Ensure the supplier can handle:</p><ul><li>Your minimum order quantities</li><li>Seasonal demand variations</li><li>Emergency rush orders</li><li>Long-term growth projections</li></ul><h3>4. Communication & Support</h3><p>Quality suppliers provide:</p><ul><li>Dedicated account managers</li><li>Real-time inventory updates</li><li>Technical support</li><li>Custom product development</li></ul><h2>Red Flags to Avoid</h2><ul><li>Lack of proper documentation</li><li>Unwillingness to provide samples</li><li>No traceability system</li><li>Poor communication</li><li>Inconsistent product quality</li></ul><h2>Building a Partnership</h2><p>The best supplier relationships are built on transparency, reliability, and shared commitment to quality. Choose a partner invested in your success.</p>",
+      "relatedArticles": [1, 5],
+      "keywords": ["suppliers", "quality", "procurement", "B2B"]
+    }
+  ],
+  "popular": [
+    {
+      "title": "10 Recipes Using Dehydrated Greens",
+      "reads": "2.4k reads",
+      "img": "/images/blog/blog-7.jpg"
+    },
+    {
+      "title": "2024 Global Food Market Forecast",
+      "reads": "1.8k reads",
+      "img": "/images/blog/blog-8.jpg"
+    },
+    {
+      "title": "Phytochemicals and Dehydration",
+      "reads": "1.1k reads",
+      "img": "/images/blog/blog-9.jpg"
+    }
+  ]
+}

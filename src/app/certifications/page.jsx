@@ -1,5 +1,10 @@
+'use client'
+
 import Link from "next/link"
 import Image from "next/image"
+import { motion } from "framer-motion"
+import { useJsonData } from "@/hooks/useJsonData"
+import AnimatedSection from "@/components/AnimatedSection"
 import { productCerts, exportCerts, downloadCerts } from "@/data/certificates"
 
 const certLogoMap = {
@@ -49,7 +54,8 @@ export default function CertificationsPage() {
   return (
     <>
       {/* ── HERO ── */}
-      <section className="bg-gradient-to-br from-teal-800 to-teal-600 py-20">
+      <AnimatedSection>
+        <section className="bg-gradient-to-br from-teal-800 to-teal-600 py-20">
         <div className="container-xl">
           <p className="text-teal-200 text-xs mb-2">
             <Link href="/" className="hover:text-white">Home</Link>
@@ -79,39 +85,62 @@ export default function CertificationsPage() {
           </div>
         </div>
       </section>
+      </AnimatedSection>
 
       {/* ── CERT LOGOS STRIP ── */}
-      <section className="bg-teal-50 py-10 border-b border-teal-100">
+      <AnimatedSection>
+        <section className="bg-teal-50 py-10 border-b border-teal-100">
         <div className="container-xl">
-          <p className="text-center text-xs font-semibold text-gray-400 tracking-widest uppercase mb-6">RECOGNIZED & CERTIFIED BY</p>
+          <motion.p 
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            className="text-center text-xs font-semibold text-gray-400 tracking-widest uppercase mb-6">RECOGNIZED & CERTIFIED BY</motion.p>
           <div className="flex flex-wrap justify-center gap-4">
-            {certLogosStrip.map(c => (
-              <div key={c.name} className="flex items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-3 shadow-soft hover:border-teal-300 transition-colors">
+            {certLogosStrip.map((c, idx) => (
+              <motion.div 
+                key={c.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: idx * 0.05 }}
+                className="flex items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-3 shadow-soft hover:border-teal-300 transition-colors">
                 <div className="relative w-10 h-10 rounded-lg overflow-hidden">
                   <Image src={c.logo} alt={c.name} fill className="object-contain" />
                 </div>
                 <span className="text-xs font-semibold text-brand-dark">{c.name}</span>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
       </section>
+      </AnimatedSection>
 
       {/* ── PRODUCT CERTIFICATIONS ── */}
-      <section className="section-pad bg-white">
-        <div className="container-xl">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <p className="section-tag">Quality Assurance</p>
-            <h2 className="section-title">Product Quality Certifications</h2>
-            <p className="section-sub mx-auto">Ensuring safety and excellence from farm to warehouse through globally recognized standard certifications.</p>
+      <AnimatedSection>
+        <section className="section-pad bg-white">
+          <div className="container-xl">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              className="text-center max-w-2xl mx-auto mb-12">
+              <p className="section-tag">Quality Assurance</p>
+              <h2 className="section-title">Product Quality Certifications</h2>
+              <p className="section-sub mx-auto">Ensuring safety and excellence from farm to warehouse through globally recognized standard certifications.</p>
+            </motion.div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {productCerts.map((cert, idx) => (
+                <motion.div
+                  key={cert.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: idx * 0.1 }}
+                >
+                  <CertCard cert={cert} logoSrc={certLogoMap[cert.title]} />
+                </motion.div>
+              ))}
+            </div>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {productCerts.map(cert => (
-              <CertCard key={cert.id} cert={cert} logoSrc={certLogoMap[cert.title]} />
-            ))}
-          </div>
-        </div>
-      </section>
+        </section>
+      </AnimatedSection>
 
       {/* ── EXPORT CERTIFICATIONS ── */}
       <section className="section-pad bg-teal-50">
