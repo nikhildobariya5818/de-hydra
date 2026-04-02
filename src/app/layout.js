@@ -14,11 +14,19 @@ export const metadata = {
   description:
     "Export-grade dehydrated vegetables, fruits & spices. Powered by Sryshaya Group. Trusted by 200+ global B2B buyers.",
   keywords: "dehydrated food, B2B food supplier, export vegetables, spices, India",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
+      <head>
+        <meta name="theme-color" content="#1A8A8A" />
+      </head>
       <body className="font-sans">
         <Navbar />
         <main className="pt-20">{children}</main>

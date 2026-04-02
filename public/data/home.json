@@ -1,0 +1,194 @@
+{
+  "hero": {
+    "badge": "🌿 Premium B2B Dehydrated Foods",
+    "title": "Pure. Preserved.",
+    "titleHighlight": "Delivered Worldwide.",
+    "description": "Industry-leading dehydration technology preserving the essence of nature, trusted by global food giants for quality, consistency, and scale.",
+    "ctaButtons": [
+      {
+        "text": "Explore Our Products",
+        "href": "/products",
+        "variant": "primary"
+      },
+      {
+        "text": "Request a Sample",
+        "href": "/contact",
+        "variant": "outline"
+      }
+    ],
+    "certifications": [
+      "FSSAI Certified",
+      "Export Ready",
+      "ISO Compliant",
+      "30+ Countries"
+    ],
+    "image": "/images/products/hero-product-flatlay.png",
+    "statsCard1": {
+      "number": "500+",
+      "label": "Products Available"
+    },
+    "statsCard2": {
+      "number": "200+",
+      "label": "Partners"
+    }
+  },
+  "stats": [
+    {
+      "number": "500+",
+      "label": "Global Products"
+    },
+    {
+      "number": "30+",
+      "label": "Export Countries"
+    },
+    {
+      "number": "15+",
+      "label": "Years Experience"
+    },
+    {
+      "number": "200+",
+      "label": "Active B2B Clients"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Vegetables",
+      "icon": "/images/products/green-peas.png",
+      "count": "24 Products"
+    },
+    {
+      "name": "Fruits",
+      "icon": "/images/products/dried-fruit-slices.png",
+      "count": "18 Products"
+    },
+    {
+      "name": "Spices",
+      "icon": "/images/products/spices-mix.png",
+      "count": "32 Products"
+    },
+    {
+      "name": "Herbs",
+      "icon": "/images/products/herbs-thyme.png",
+      "count": "15 Products"
+    },
+    {
+      "name": "Private Label",
+      "icon": "/images/process/step5-private-label.png",
+      "count": "Custom"
+    }
+  ],
+  "whyUs": [
+    {
+      "icon": "🌿",
+      "title": "100% Natural",
+      "description": "No additives, no dyes, no artificial preservatives. Pure ingredients at their best."
+    },
+    {
+      "icon": "📦",
+      "title": "Flexible Packaging",
+      "description": "Bulk retail packaging solutions to meet specific market needs — 1kg to 25kg."
+    },
+    {
+      "icon": "✈️",
+      "title": "Export Ready",
+      "description": "Compliant with international food safety standards ensuring smooth global trade."
+    },
+    {
+      "icon": "🔬",
+      "title": "Quality Testing",
+      "description": "Rigorous lab testing at every stage of the production cycle."
+    },
+    {
+      "icon": "🤝",
+      "title": "B2B Support",
+      "description": "Dedicated account managers for large enterprises providing real-time inventory and supply updates."
+    },
+    {
+      "icon": "🏭",
+      "title": "Large Scale",
+      "description": "Our state-of-the-art facility processes 50+ metric tons daily."
+    }
+  ],
+  "process": [
+    {
+      "num": "01",
+      "icon": "🌾",
+      "title": "Sourcing",
+      "description": "Premium-grade produce from certified farms."
+    },
+    {
+      "num": "02",
+      "icon": "🧹",
+      "title": "Cleaning",
+      "description": "Rigorous quality control at source."
+    },
+    {
+      "num": "03",
+      "icon": "♨️",
+      "title": "Dehydration",
+      "description": "Precision moisture removal."
+    },
+    {
+      "num": "04",
+      "icon": "⭐",
+      "title": "Grading",
+      "description": "Nutrient consistency assured."
+    },
+    {
+      "num": "05",
+      "icon": "🔬",
+      "title": "Inspection",
+      "description": "Quality Assurance."
+    },
+    {
+      "num": "06",
+      "icon": "🚛",
+      "title": "Logistics",
+      "description": "Global Distribution."
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "De'hydra's consistency in quality is outstanding. They've become a key procurement partner for our food processing chain.",
+      "name": "Ahmed Al-Farsi",
+      "role": "Procurement Manager, Al Noor Trading, UAE",
+      "stars": 5
+    },
+    {
+      "text": "The craftsmanship and experience of working with De'hydra is truly exceptional. Customer support is top-notch.",
+      "name": "Ahmad Bin-A",
+      "role": "Import Director, FoodBridge, Singapore",
+      "stars": 5
+    },
+    {
+      "text": "Their private label solutions helped us launch our own brand in just 3 weeks. Highly professional team.",
+      "name": "Sarah Williams",
+      "role": "Brand Manager, NatureFoods, UK",
+      "stars": 5
+    }
+  ],
+  "insights": [
+    {
+      "tag": "INDUSTRY",
+      "title": "Future of Dehydrated Goods in B2B Supply Chains",
+      "date": "Mar 2025",
+      "image": "/images/blog/blog-1.jpg"
+    },
+    {
+      "tag": "HEALTH",
+      "title": "Sustaining Nutritional Value During Drying",
+      "date": "Feb 2025",
+      "image": "/images/blog/blog-2.jpg"
+    },
+    {
+      "tag": "EXPORT",
+      "title": "Launching a Global Private Label Brand",
+      "date": "Jan 2025",
+      "image": "/images/blog/blog-5.jpg"
+    }
+  ],
+  "cta": {
+    "title": "Ready to scale your supply?",
+    "description": "Join over 200+ global partners sourcing premium ingredients. Let's discuss your supply requirements today."
+  }
+}
